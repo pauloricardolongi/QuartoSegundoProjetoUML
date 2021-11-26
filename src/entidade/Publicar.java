@@ -65,5 +65,14 @@ public class Publicar {
     public void removeComentario(Comentario comentario) {
     	comentarios.remove(comentario);
     }
+
+	
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		sb.append(titulo + "\n");
+		sb.append(likes);
+		sb.append(" Likes - ");
+	}
+    
     
 }
