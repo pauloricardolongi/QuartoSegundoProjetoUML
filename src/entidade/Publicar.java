@@ -23,6 +23,42 @@ public class Publicar {
 		this.content = content;
 		this.likes = likes;
 	}
-    
+
+	public Date getMomento() {
+		return momento;
+	}
+
+	public void setMomento(Date momento) {
+		this.momento = momento;
+	}
+
+	public String getTitulo() {
+		return titulo;
+	}
+
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	public Integer getLikes() {
+		return likes;
+	}
+
+	public void setLikes(Integer likes) {
+		this.likes = likes;
+	}
+
+	public List<Comentario> getComentarios() {
+		return comentarios;
+	}
+
     
 }
