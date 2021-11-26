@@ -11,4 +11,18 @@ public class Publicar {
 	private Integer likes;
 	
     private List<Comentario> comentarios = new ArrayList<>();
+
+	public Publicar() {
+		
+	}
+
+	public Publicar(Date momento, String titulo, String content, Integer likes) {
+		
+		this.momento = momento;
+		this.titulo = titulo;
+		this.content = content;
+		this.likes = likes;
+	}
+    
+    
 }
