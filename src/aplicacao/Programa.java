@@ -18,6 +18,9 @@ public class Programa {
 				"Traveling to New Zealend",
 				"Vou visitar esse país",
 				12);
+		p1.addComentario(c1);
+		p1.addComentario(c2);
+		
 	}
 
 }
