@@ -74,7 +74,7 @@ public class Publicar {
 		sb.append(titulo + "\n");
 		sb.append(content + "\n");
 		sb.append(likes);
-		sb.append(" Likes - ");	
+		sb.append(" Likes - " + "\n");	
 		
 		sb.append("Comentários:\n");
 		for (Comentario c : comentarios) {
