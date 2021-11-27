@@ -70,14 +70,15 @@ public class Publicar {
     }
     public String toString() {
 		StringBuilder sb = new StringBuilder();
-		sb.append(titulo + "\n");
-		sb.append(likes);
-		sb.append(" Likes - ");
 		sb.append(sdf.format(momento) + "\n");
+		sb.append(titulo + "\n");
 		sb.append(content + "\n");
+		sb.append(likes);
+		sb.append(" Likes - ");	
+		
 		sb.append("Comentários:\n");
 		for (Comentario c : comentarios) {
-			sb.append(c.getTexto());
+			sb.append(c.getTexto() + "\n");
 		}
 		return sb.toString();
 				
